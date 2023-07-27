@@ -12,7 +12,7 @@ import yaml
 
 global cfg_path
 global char_folder
-app = Flask(__name__, template_folder=os.path.abspath("./fixer_app/"))
+app = Flask(__name__, template_folder=os.path.abspath("examples/fixer_app/"))
 
 
 def load_cfg(path):
